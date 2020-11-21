@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AuthenticationApp</string>
+    <string name="welcome_message">Welcome to Our App ! Here s your transactions !</string>
+    <string name="authentication_title">Authenticate</string>
+    <string name="list_content_title">No Title</string>
+    <string name="list_content_description">No Description</string>
+    <string name="list_content_amount">0 DHS</string>
+    <string name="list_content_date">00/00/0000</string>
+    <string name="list_content_num">000000</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowTransactionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/show_account"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dip"
+        android:text="@string/list_content_num"
+        android:layout_marginEnd="20dip" />
+
+    <TextView
+        android:id="@+id/show_reference"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dip"
+        android:text="@string/list_content_num"
+        android:layout_marginEnd="20dip"/>
+
+    <ImageView
+        android:id="@+id/show_img"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/show_title"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@string/list_content_title"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/show_description"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dip"
+        android:text="@string/list_content_description"
+        android:layout_marginEnd="20dip"/>
+
+    <TextView
+        android:id="@+id/show_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dip"
+        android:text="@string/list_content_amount"
+        android:layout_marginEnd="10dip"/>
+
+    <TextView
+        android:id="@+id/show_date"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/list_content_date" />
+    <TextView
+        android:id="@+id/show_date_validity"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/list_content_date" />
+
+</LinearLayout>
