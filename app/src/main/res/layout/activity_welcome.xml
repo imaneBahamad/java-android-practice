@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
+    tools:context=".WelcomeActivity"
+    android:orientation="horizontal">
     <!--<TextView
         android:id="@+id/welcome_text"
         android:layout_width="match_parent"
@@ -13,10 +14,16 @@
         android:paddingTop="50dp"
         android:text="@string/welcome_message"
         android:gravity="center" />-->
-    <ListView
+    <!--<ListView
         android:id="@+id/transaction_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        />-->
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
 
 </LinearLayout>

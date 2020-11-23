@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AuthenticationApp">
-        <activity android:name=".ShowTransactionActivity"></activity>
+        <activity android:name=".ShowTransactionActivity" />
         <activity android:name=".ListContentActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MainActivity">
